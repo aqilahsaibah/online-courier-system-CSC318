@@ -1,0 +1,459 @@
+/*header*/ 
+header{
+    background: #008080;
+    color: #ffffff;
+    padding-top:25px;
+    min-height: 70px;
+    border-bottom: ##ffcc00 5px solid;
+}
+
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li{
+    display: inline;
+    padding: 0 20px 0 20px;
+}
+
+header #brandig{
+    text-align : center;
+}
+
+header #brandig h1{
+    margin: 0;
+}
+
+header nav{
+    position:center;
+    margin-top:20px;
+}
+
+header .highlight {
+    font-size:50px;
+}
+
+header .highlight2 {
+    font-size:70px;
+}
+
+header .highlight, header .current a{
+    color: #ffcc00;
+    font-weight: bold;
+    text-align: center;
+}
+
+
+header .current a:hover{
+     color: #cccccc;
+    font-weight: bold;
+}
+
+header a{
+    color: #cccccc;
+    font-weight: bold;
+}
+
+header a:hover{
+    color: #ffcc00;
+    font-weight: bold;
+}
+
+
+/* Boxes */
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: top;
+    text-align: center;
+    width: 32%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 90px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffcc00;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 80px;
+
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight:bold;
+    display: block;
+    transition: 0.3s;
+    padding-top: 2em;
+    background-color: #ffcc00;
+}
+
+.sidenav a:hover {
+    color: white;
+    background-color:#008080;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 20px;
+    margin-left: 50px;
+}
+
+.logbtn{
+    float:right;
+}
+
+.sidemenubtn{
+    float:left;
+}
+
+.topnav{
+    padding-top: 25px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+
+
+footer{
+    color: white;
+    background-color: #008080;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    text-align: center;
+}
+
+
+
+body {font-family: Arial, Helvetica, sans-serif;}
+
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+#myImg:hover {opacity: 0.7;}
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+}
+
+/* Modal Content (image) */
+.modal-content {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+}
+
+/* Caption of Modal Image */
+#caption {
+    margin: auto;
+    display: block;
+    width: 80%;
+    max-width: 700px;
+    text-align: center;
+    color: #ccc;
+    padding: 10px 0;
+    height: 150px;
+}
+
+/* Add Animation */
+.modal-content, #caption {    
+    -webkit-animation-name: zoom;
+    -webkit-animation-duration: 0.6s;
+    animation-name: zoom;
+    animation-duration: 0.6s;
+}
+
+@-webkit-keyframes zoom {
+    from {-webkit-transform:scale(0)} 
+    to {-webkit-transform:scale(1)}
+}
+
+@keyframes zoom {
+    from {transform:scale(0)} 
+    to {transform:scale(1)}
+}
+
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+* {box-sizing: border-box;}
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border-radius: 20px;
+    background: #f1f1f1;
+    border: 2px solid #008080;
+}
+
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+    background-color: #d0e1e1;
+    color: #008080;
+    font-weight:bold;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width:50%;
+    opacity: 0.9;
+}
+
+button:hover {
+    opacity:1;
+}
+
+.div1{
+	width:auto;
+	height:auto;
+	padding:5px 20px 15px 15px;
+	border:5px solid #d1e0e0;
+	box-sizing:border-box;
+	background-color: #d0e1e1;
+}
+
+.div1:hover{
+	width:auto;
+	height:auto;
+	padding:5px 20px 15px 15px;
+	border:5px solid #d1e0e0;
+	box-sizing:border-box;
+	background-color: #d0e1e1;
+	opacity:0.6;
+}
+
+
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: #800000;
+    color:white;
+    text-transform:uppercase;
+}
+
+.regbtn{
+	background-color:#008080;
+	color:white;
+	width: 50px;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn {
+  float: left;
+  width: 50%;
+}
+
+.regbtn {
+	float:right;
+	width: 50%;
+}
+
+/* Add padding to container elements */
+.container {
+    padding: 16px;
+}
+
+.container h1{
+	text-align:center;
+}
+
+/* Style the horizontal ruler */
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+    .cancelbtn, .signupbtn {
+       width: 100%;
+    }
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 3px solid  #103d3d;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: transparent;
+}
+
+th {
+    background-color: #008080;
+    color: white;
+    text-align: center;
+}
+
+.fas {
+	font-size: 40px;
+	background-color:#008080;
+	color: #ffcc00; 
+	float:right;
+	border-style: solid 1px #103d3d;
+	padding-bottom: 0.2em transparent;
+}
+
+.sectopnav{
+	text-align: center;
+}
+
+#grid{
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+#grid .grid_item{
+    position: center;
+    text-align: center;
+    box-sizing: border-box;
+    	width:auto;
+	height:auto;
+	padding-left:0.2em;
+	border:2px solid #d1e0e0;
+	background-color: #d0e1e1;
+	display: inline-block;
+}
+
+#grid .grid_item a{
+    position: center;
+    text-align: center;
+    box-sizing: border-box;
+    	width:auto;
+	height:auto;
+	padding-left:0.2em;
+	border:2px solid #d1e0e0;
+	background-color: #d0e1e1;
+	display: inline-block;
+	font-weight: solid;
+}
+
+
+#grid .grid_item img{
+    width: 90px;
+    display: inline-block;
+}
+
+.navclick{
+	width:auto;
+	height:auto;
+	padding-left:0.2em;
+	border:2px solid #d1e0e0;
+	box-sizing:border-box;
+	background-color: #d0e1e1;
+	color: #008080 solid;
+	font-size: 16px;
+}
+
+
+.navcurrent{
+	width:auto;
+	height:auto;
+	padding-left:0.2em;
+	border:2px solid #d1e0e0;
+	box-sizing:border-box;
+	background-color: #d0e1e1;
+	color: black solid;
+	font-size: 16px;
+}
+
+.div2{
+	float:right;
+	width:auto;
+	height:auto;
+	padding:5px 20px 15px 15px;
+	border:5px solid #d1e0e0;
+	box-sizing:border-box;
+	background-color: #008080;
+	display: inline-block;
+	vertical-align: bottom;
+}
+
+.div2:hover{
+	width:auto;
+	height:auto;
+	padding:5px 20px 15px 15px;
+	border:5px solid #d1e0e0;
+	box-sizing:border-box;
+	background-color: #d0e1e1;
+	opacity:0.6;
+}

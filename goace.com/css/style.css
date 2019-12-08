@@ -1,0 +1,544 @@
+
+
+body{
+    font: 15px/1.5 Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #f4f4f4;
+}
+
+/*Global*/
+.container{
+    padding-right: 50px;
+    padding-bottom: 40px;
+    padding left: 20px;
+   
+ 
+}
+
+.container{
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+    
+}
+
+
+header ul{
+    margin: 0;
+    padding: 0;
+}
+.button_login{
+    height: 40px;
+    width: 50%;
+    background: #e8491d;
+    border: 0;
+    float: center;
+    color: #ffffff;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.button_register{
+    height: 30px;
+    width: 20%;
+    background: #e8491d;
+    border: 0;
+    float: center;
+    color: #ffffff;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.button_1{
+    height: 25px;
+    width: 20%;
+    background: #e8491d;
+    border: 0;
+    float: center;
+    color: #ffffff;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+.button_2{
+    height: 40px;
+    width: 50%;
+    background: #e8491d;
+    border: 0;
+    float: right;
+    color: #ffffff;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.button_3{
+    height: 30px;
+    width: 20%;
+    background: #e8491d;
+    border: 0;
+    float: center;
+    color: #ffffff;
+    border: 2px solid;
+    border-radius: 5px;
+}
+.dark1{
+    padding: 5px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 20%;
+    border-radius: 5px;
+    margin: 100px auto;
+    padding: 50px;
+    text-align: center;
+    
+}
+.dark{
+    padding: 15px;
+    background: #35424a;
+    color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+/*menu*/
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+.fa-times{
+    right: 10px;
+    top: 10px;
+    opacity: 0.7;
+    cursor: pointer;
+    position: absolute;
+    color: white;
+    transition: all 0.2s ease-in-out;
+}
+
+.fa-times:hover{
+    opacity: 1;
+}
+
+.sidebar_menu{
+    position: fixed;
+    width: 250px;
+    margin-left: 0px;
+    overflow: hidden;
+    height: 100vh;
+    max-height: 100vh;
+    background-color: rgba(17,17,17,0.9);
+    opacity: 0.9;
+    transition: all 0.3s ease-in-out;
+}
+
+.hide_menu{
+    margin-left: -250px;
+    transition: all 0.3s ease-in-out;
+}
+
+.toggle_menu{
+    position: fixed;
+    padding: 15px 20px 15px 15px;
+    margin-top: 70px;
+    color: white;
+    cursor: pointer;
+    background-color: #648B79;
+    opacity: 0;
+    z-index: 10000;
+    font-size: 2em; 
+    transition: all 0.2s ease-in-out;
+}
+
+.opacity_one{
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+.toggle_menu:hover{
+    background-color: #FE4365;
+    transition: all 0.2s ease-in-out;
+}
+
+.boxed_item{
+    font-family: 'Open Sans';
+    font-weight: 200;
+    padding: 10px 20px;
+    display: inline-block;
+    border: solid 2px white;
+    box-sizing: border-box;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    margin-top: 70px;
+}
+
+.logo_bold{
+    font-weight: 800;
+}
+
+.logo_title{
+    color: white;
+    font-family: 'Open Sans';
+    font-weight: 200;
+    font-size: 12px;
+    text-align: center;
+    padding: 5px 0;
+}
+
+.menu_close{
+    color: #D8D8D8;
+    position: absolute;
+    right: 8px;
+    opacity: 0.7;
+    top: 6px;
+    font-size: 1.1em;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.menu_close:hover{
+    color: #FE4365;
+    opacity: 1;
+    transition: all 0.2s ease-in-out;
+}
+
+.navigation_section{
+    margin: 20px 0;
+    display: block;
+    width: 200px;
+    margin-left: 25px;
+}
+
+.navigation_item{
+    font-weight: 200;
+    font-family: 'Open Sans';
+    color: white;
+    padding: 12px 0px;
+    box-sizing: border-box; 
+    font-size: 14px;
+    color: #ffffff;
+    border-bottom: solid 1px #D8D8D8;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.navigation_item:hover{
+    color :coral;
+    transition: all 0.3s ease-in-out;
+}
+
+
+.boxed_item_smaller{
+    font-size: 12px;
+    color: #D8D8D8;
+    width: 200px;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    border-width: 1px;
+    margin: 0 0 20px 0;
+}
+
+.boxed_item_smaller:hover{
+    background-color: white;
+    color: #111;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+/* Showcase */
+#showcase{
+    min-height: 440px;
+    background: url('../img/showcase.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: darksalmon;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+
+/*Login*/
+#frm{
+    margin-bottom: 100px;
+    border: solid gray 1px;
+    width: 500%;
+    height: 400px;
+    border-radius: 5px;
+    margin: 0 auto;
+    background:  white;
+    text-align: center;
+    padding: 30px;
+}
+#btn{
+    color: #fff;
+    background: #337ab7;
+    padding: 5px;
+    margin-left: 69%;
+}
+
+
+
+/* Newsletter */
+#newsletter{
+    padding: 20px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+
+#newsletterh1{
+    float: top;
+}
+
+
+
+/* Sidebar*/
+aside#sidebar{
+    float: right;
+    width: 30%;
+    margin-top: 10px;
+}
+
+aside#sidebar .quote input, aside#sidebar. quote textarea{
+    width: 90%;
+    padding: 5px;
+    text-align: center;
+    margin-left: auto
+}
+
+
+/* Main-col*/
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+
+/*Services*/
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+
+
+/*Media Queries*/
+@media(max-width: 768px){
+    header #branding,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes box,
+    article#main-col,
+    aside#sidebar{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    header{
+        padding-bottom: 20px;
+    }
+    
+    #showcase h1{
+        margin-top: 40px;
+    }
+    
+    #newsletter button, .quote button{
+        display: block;
+        width: 100%;
+    }
+    
+    #newsletter form input[type = "text"], .quote input, .quote textarea{
+        width: 100%;
+        margin-bottom: 5px;
+        
+    }
+}
+
+/* Showcase */
+
+#showcase{
+    min-height: 400px;
+    background: url('../img/showcase.jpg') no-repeat 0 -400px;
+    text-align: center;
+    color: darksalmon;
+}
+
+#showcase h1{
+    margin-top: 100px;
+    font-size: 55px;
+    margin-bottom: 10px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+/*Login*/
+
+#frm{
+    border: solid gray 1px;
+    width: 20%;
+    border-radius: 5px;
+    margin: 100px auto;
+    background:  white;
+    padding: 50px;
+}
+#btn{
+    color: #fff;
+    background: #337ab7;
+    padding: 5px;
+    margin-left: 69%;
+    
+}
+
+
+
+/* Newsletter */
+
+#newsletter{
+    padding: 20px;
+    color: #ffffff;
+    background: #35424a;
+}
+
+
+#newsletterh1{
+    float: top;
+}
+/* Boxes */
+
+#boxes{
+    margin-top: 20px;
+}
+
+#boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+
+#boxes .box img{
+    width: 100px;
+}
+
+/* Sidebar*/
+aside#sidebar{
+    float: center;
+    text-align: center;
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px;
+    font-size: 12pt;
+}
+
+aside#sidebar .quote input, aside#sidebar. quote textarea{
+    width: 90%;
+    float: left;
+    padding: 5px;
+}
+
+
+/* Main-col*/
+article#main-col{
+    float: left;
+    width: 65%;
+}
+
+/*Services*/
+ul#services li{
+    list-style: none;
+    padding: 20px;
+    border: #cccccc solid 1px;
+    margin-bottom: 5px;
+    background: #e6e6e6;
+}
+
+
+footer{
+    padding: 20px;
+    margin-top: 20px;
+    color: #ffffff;
+    background-color: #e8491d;
+    text-align: center;
+}
+
+
+/*Media Queries*/
+
+@media(max-width: 768px){
+    header #brandig,
+    header nav,
+    header nav li,
+    #newsletter h1,
+    #newsletter form,
+    #boxes box,
+    article#main-col,
+    aside#sidebar{
+        float: none;
+        text-align: center;
+        width: 100%;
+    }
+    
+    header{
+        padding-bottom: 20px;
+    }
+    
+    #showcase h1{
+        margin-top: 40px;
+    }
+    
+    #newsletter button, .quote button{
+        display: block;
+        width: 100%;
+    }
+    
+    #newsletter form input[type = "text"], .quote input, .quote textarea{
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+/*table*/
+
+table {
+    border-collapse: collapse;
+    border: 2px ;
+    border-radius: 5px;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: darksalmon;
+    color: white;
+}
+
+
+
+
+

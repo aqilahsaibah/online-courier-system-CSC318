@@ -1,0 +1,105 @@
+.sectopnav{
+    text-align: center;
+    padding-top: 1em;
+    padding-bottom:1em;
+}
+
+#grid{
+    margin-top: 20px;
+    box-sizing: border-box;
+}
+
+#grid .grid_item{
+    position: center;
+    text-align: center;
+    width:auto;
+    height:auto;
+    padding-left:0.2em;
+    display: inline-block;
+}
+
+#grid .grid_item a{
+    position: center;
+    text-align: center;
+    box-sizing: border-box;
+        width:auto;
+    height:auto;
+    padding-left:0.2em;
+      border:2px solid #d1e0e0;
+  background-color: #d0e1e1;
+    display: inline-block;
+    font-weight: solid;
+}
+
+
+#grid .grid_item img{
+    width: 90px;
+    display: inline-block;
+}
+
+
+.navclick{
+    width:200px;
+    height:60px;
+    border:5px solid #94b8b8;
+    box-sizing:border-box;
+    background-color: #008080;
+}
+
+.navclick h1{
+    color:white;
+    font-weight:solid;
+    font-size:15px;
+    padding-top:0.2em;
+    margin:0.2em;
+}
+
+.navcurrent{
+    width:200px;
+    height:60px;
+
+    border:5px solid #527a7a;
+    box-sizing:border-box;
+    background-color: #ffcc00;
+}
+
+.navcurrent h1{
+    color:white;
+    font-weight:solid;
+    font-size:15px;
+}
+S
+
+.container h1{
+  text-align:center;
+}
+
+.div2 h3 {
+   color:white;
+   font-size:16px;
+   text-align: center;
+   font-weight:solid;
+  }
+
+header .highlight2 {
+    font-size:70px;
+}
+
+header .highlight a{
+    color: #ffcc00;
+    font-weight: bold;
+    text-align: center;
+    font-size:30px;
+}
+
+header .highlight{
+    color: #ffcc00;
+    font-weight: bold;
+    text-align: center;
+    font-size:30px;
+}
+
+header .current a{
+     color: #ffcc00;
+    font-weight: bold;
+}
